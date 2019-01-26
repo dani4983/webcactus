@@ -22,7 +22,7 @@ header h3{
 .header{
     top:50%;
     left:50%;
-    transform:translateX(-50%),translateY(-50%)
+    transform:translateX(-50%) translateY(-50%)
 }
 
 #navbarToggleExternalContent{
@@ -64,3 +64,4 @@ header h3{
                                 }
                                 
                                 .pos-f-t{position:relative}}
+                            }
