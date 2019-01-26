@@ -1,1 +1,66 @@
-*{margin:0;padding:0}body{background:#f8fdf2}header{background:url("../img/img8.jpeg");background-position:center center;background-repeat:no-repeat;height:90vh;color:chocolate}.header{top:50%;left:50%;transform:translateX(-50%),translateY(-50%)}.tarjeta{border:1px solid #000;border-radius:5px}.tarjeta img{margin:0;padding:0;background-size:cover}.tarjeta .card-footer{background:#f8fdf2}.contacto{background:url("../img/img10.jpg");background-repeat:no-repeat}.ultimas-img img{margin:0;padding:0;height:90%;background-size:cover}#btn{padding:0;left:95%;font-size:300%;color:darkgreen}@media screen and (max-width: 768px){.header button{display:none}#btn{display:none}}@media screen and (max-width: 576px){.btn{display:none}.pos-f-t{position:relative}}
+*{margin:0;padding:0}body{background:#f8fdf2}
+
+header{
+    background:url("../img/img6.jpeg");
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height:100vh;
+    width: 100%;
+    color:#db3030;
+    font-weight: bold;
+}
+header h2{
+     font-size: 40px;
+     text-shadow:-2px 0 black, 0 2px black,
+     2px 0 black, 0 -2px black;
+}
+header h3{
+    font-size: 30px;
+}
+
+.header{
+    top:50%;
+    left:50%;
+    transform:translateX(-50%),translateY(-50%)
+}
+
+#navbarToggleExternalContent{
+    color: darkgreen;
+    font-weight: bold;
+    text-shadow:-1px 0 black, 0 1px black,
+     1px 0 black, 0 -1px black;
+}
+
+.tarjeta{
+    border:1px solid #000;
+    border-radius:5px
+}
+.tarjeta img{
+    margin:0;
+                padding:0;
+                background-size:cover}
+                .tarjeta .card-footer{
+                    background:#f8fdf2}
+                    .contacto{background:url("../img/img10.jpg")
+                    ;background-repeat:no-repeat}
+                    .ultimas-img img{margin:0;
+                        padding:0;
+                        height:90%;
+                        background-size:cover}
+                        #btn{padding:0;
+                            left:95%;
+                            font-size:300%;
+                            color:darkgreen}
+                            @media screen and (max-width: 768px){
+                                header{
+                                    height: 110vh;
+                                }
+                                
+                               
+                            @media screen and (max-width: 576px){
+                                header{
+                                    height: 130vh;
+                                }
+                                
+                                .pos-f-t{position:relative}}
